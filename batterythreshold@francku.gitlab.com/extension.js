@@ -41,7 +41,7 @@ const Indicator = GObject.registerClass(
                 text: labelText,
                 y_align: Clutter.ActorAlign.CENTER
             })
-            this.add_actor(this.textBox);
+            this.add_child(this.textBox);
 
             let set_threshold_item_60 = new PopupMenu.PopupMenuItem(_('Set threshold to 60%'));
             set_threshold_item_60.connect('activate', () => {
