@@ -4,6 +4,6 @@
   "uuid": "batterythreshold@francku.gitlab.com",
   "gettext-domain": "gnome-shell-extension-battery-threshold",
   "url": "https://extensions.gnome.org/extension/4612/battery-threshold",
-  "version": 4,
-  "shell-version": ["45"]
+  "version": 5,
+  "shell-version": ["45", "46"]
 }
